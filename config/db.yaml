@@ -1,0 +1,4 @@
+host: '192.168.9.133'
+username: 'root'
+password: '123456'
+port: '3306'
