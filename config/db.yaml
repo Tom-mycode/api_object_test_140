@@ -1,4 +1,4 @@
-host: '192.168.10.131'
+host: '192.168.150.134'
 username: 'root'
 password: '123456'
 port: '3306'
