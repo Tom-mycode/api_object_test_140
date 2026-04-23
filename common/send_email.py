@@ -1,9 +1,13 @@
 import os
 import smtplib
+import sys
 import zipfile
 from email.message import EmailMessage
 from email.utils import formataddr
 from pathlib import Path
+
+# 这行代码会将项目根目录（apiobj140）添加到 Python 的搜索路径中
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from config.environment import sender_email, password_email, EMAIL_SERVER, PORT
 
