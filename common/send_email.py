@@ -6,6 +6,12 @@ import zipfile
 from email.message import EmailMessage
 from email.utils import formataddr
 from pathlib import Path
+# -*- coding: utf-8 -*-
+import sys
+import io
+
+# 设置标准输出为 UTF-8 编码（解决 Windows 控制台 emoji 问题）
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # 这行代码会将项目根目录（apiobj140）添加到 Python 的搜索路径中
 sys.path.insert(0, str(Path(__file__).parent.parent))
