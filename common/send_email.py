@@ -136,6 +136,6 @@ def send_test_report(receiver_email, allure_results_dir=None, report_url=None):
 # 使用示例（直接调用）
 send_test_report(
     receiver_email="2301857691@qq.com",
-    allure_results_dir="report/data",  # 指定 Allure 原始结果目录
+    allure_results_dir="allure-results",  # 指定 Allure 原始结果目录
     report_url="http://172.31.52.35:8080/job/apiobj140/allure/"
 )
