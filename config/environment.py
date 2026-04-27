@@ -1,5 +1,5 @@
-ip_address = "http://192.168.150.134:8080"
-db_host = '192.168.150.134'
+ip_address = "http://192.168.9.133:8080"
+db_host = '192.168.9.133'
 
 # 邮箱
 sender_email = "3382109179@qq.com"

@@ -1,1 +1,0 @@
-{"uuid": "809709e8-2646-4ea1-97a3-8aafa2e98a51", "children": ["8473c397-1368-4a93-b3b2-41790d9442bf"], "befores": [{"name": "fp_stock_init", "status": "passed", "start": 1776844837982, "stop": 1776844837986}], "afters": [{"name": "fp_stock_init::0", "status": "passed", "start": 1776844838340, "stop": 1776844838344}], "start": 1776844837982, "stop": 1776844838344}
